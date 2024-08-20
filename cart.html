@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> My Cart</title>
+        <link rel="icon" href="./static/images/cart-x-fill.svg" type="image/x-icon">
+        <link rel="stylesheet" href="/style/cart.css">
+    </head>
+    <body>
+        <section id="navbar" class="nav">
+            <p id="home" style="cursor: pointer;" onclick="window.location.href = 'index.html'">OOTA's
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+            </svg></p>
+
+            <div id="veryRight">
+                <button style="text-align: end; cursor: pointer; margin-right: 10px;" onclick="logout()">
+                    Log out
+                </button> 
+                <button style="text-align: end; cursor: pointer; margin-right: 10px;" onclick="window.location.href = 'info.html'">
+                    Account
+                </button>
+            </div> 
+
+        </section>
+
+       
+        <span id="icon-cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"/>
+            </svg>
+        </span>
+        <table class="t">
+            <thead>
+                <tr>
+                    <th> Id </th>
+                    <th> Product-Title </th>
+                    <th> Quantity </th>
+                    <th id="imge"> Image </th>
+                    <th> Price </th>
+                    <th> Total </th>
+                    <th colspan="1"> Options </th> 
+                </tr> 
+            </thead>
+
+            <tbody id="bodyOfTable">
+                
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="3" style="background-color: #7bec0be0; padding: 0.5rem; font-size: x-large; text-align: center;"> Total </th>
+                    <td style="font-size: x-large; color: #24af01; font-weight: bold;" colspan="5" id="total"> </td>
+                </tr>
+            </tfoot>
+
+        </table>
+        
+    <script src="/src/cart.js"></script>    
+    </body>
+</html>

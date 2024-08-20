@@ -1,0 +1,194 @@
+#navbar {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 15px 30px;
+}
+.nav p {
+    margin: 0;
+    font-size: 24px; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #007bff, #00d084); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s ease; 
+}
+
+#navbar svg {
+    margin-left: 10px;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: end;
+}
+
+.nav-btn:last-child {
+    margin-right: 0; 
+}
+#me, #edit {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#me {
+    border: 1px solid #e0e0e0;
+}
+
+#me h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#me p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+#edit {
+    border: 1px solid #d0d0d0;
+}
+
+#edit h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#edit form {
+    display: flex;
+    flex-direction: column;
+}
+
+#edit label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#edit input, #edit textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#edit button {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#edit button:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    padding: 10px;
+    width: 20rem;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+    box-sizing: border-box; 
+}
+
+.info:focus {
+    border-color: #007bff;
+    outline: none; 
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+#veryRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#veryRight svg {
+    cursor: pointer;
+    margin-right: 10px;
+    fill: #fff;
+    transition: fill 0.3s ease;
+}
+
+#veryRight svg:hover {
+    fill: #00d084; 
+}
+
+#veryRight button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+}
+
+#veryRight button:hover {
+    background-color: #575757; 
+}
+
+#user, #pass {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#user span, #pass span {
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+svg {
+    vertical-align: middle;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+svg:hover {
+    color: #0056b3;
+}
+
+svg:active {
+    transform: scale(0.95);
+}

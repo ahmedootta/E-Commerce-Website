@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "username": "ahmed98",
+      "password": "ahmed97",
+      "cart": [
+        {
+          "id": 157,
+          "title": "Party Glasses",
+          "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+          "price": 19.99,
+          "image": "https://cdn.dummyjson.com/products/images/sunglasses/Party%20Glasses/1.png",
+          "quantity": 2
+        },
+        {
+          "id": 9,
+          "title": "Dolce Shine Eau de",
+          "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+          "price": 69.99,
+          "image": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
+          "quantity": 2
+        }
+      ],
+      "id": "c94b"
+    },
+    {
+      "username": "nana@2000",
+      "password": "nana@2000",
+      "cart": [],
+      "id": "e455"
+    },
+    {
+      "id": "97bf",
+      "username": "nana@1100",
+      "password": "nana@1100",
+      "cart": []
+    },
+    {
+      "username": "mohamed. Fadl",
+      "password": "Msf@12345",
+      "cart": [
+        {
+          "id": 25,
+          "title": "Green Bell Pepper",
+          "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+          "price": 1.29,
+          "image": "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png",
+          "quantity": 5
+        }
+      ],
+      "id": "8304"
+    },
+    {
+      "username": "ahmed",
+      "password": "mn3m@100",
+      "cart": [
+        {
+          "id": 3,
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "price": 14.99,
+          "image": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+          "quantity": 3
+        }
+      ],
+      "id": "c629"
+    },
+    {
+      "username": "ghloola",
+      "password": "8loola@oota",
+      "cart": [
+        {
+          "id": 7,
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+          "price": 129.99,
+          "image": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+          "price": 129.99,
+          "image": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "title": "Chanel Coco Noir Eau De",
+          "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+          "price": 129.99,
+          "image": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
+          "quantity": 3
+        }
+      ],
+      "id": "90ef"
+    },
+    {
+      "id": "aad8",
+      "username": "ahmed97",
+      "password": "ahmed@97",
+      "cart": []
+    },
+    {
+      "id": "5de2",
+      "username": "ahmed@96",
+      "password": "ahmed@96",
+      "cart": []
+    },
+    {
+      "id": "b1dc",
+      "username": "ahmed@22",
+      "password": "ahmed@22",
+      "email": "ahmed@gmail.com",
+      "cart": []
+    },
+    {
+      "id": "3c07",
+      "username": "ahmed@11",
+      "password": "ahmeddd@gmail.com",
+      "email": "ahmeddd@gmail.com",
+      "cart": []
+    }
+  ]
+}

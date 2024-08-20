@@ -1,0 +1,185 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+#navbar {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 15px 30px;
+}
+.nav p {
+    margin: 0;
+    font-size: 24px; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold; 
+    position: relative;
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #007bff, #00d084); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s ease; 
+}
+
+
+#navbar svg {
+    margin-left: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: end;
+}
+
+.nav-btn:last-child {
+    margin-right: 0; 
+}
+
+
+
+#icon-cart {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#icon-cart svg {
+    margin: 0 1rem;
+}
+
+table.t {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+table.t th, table.t td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: large;
+}
+
+table.t th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table.t tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+tfoot {
+    background-color: #e1e1e1;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    text-align: center; 
+    padding: 1rem;
+}
+#total{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-buttons {
+        margin-top: 1rem;
+        gap: 5px;
+    }
+
+    table.t {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    table.t th, table.t td {
+        padding: 0.5rem;
+    }
+}
+
+
+#veryRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+#veryRight svg {
+    cursor: pointer;
+    margin-right: 10px;
+    fill: #fff;
+    transition: fill 0.3s ease;
+}
+
+#veryRight svg:hover {
+    fill: #00d084; 
+}
+
+#veryRight button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+}
+
+#veryRight button:hover {
+    background-color: #575757; 
+}
+
+#imge{
+    padding-left: 3rem;
+    padding-right: 0;
+}
+
+.delete-button {
+    background-color: red;
+    border: 2px solid darkred;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+

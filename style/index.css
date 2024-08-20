@@ -1,0 +1,314 @@
+body{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+input{
+    background-color: rgb(19, 39, 51);
+    color: white;
+    padding: 8px;
+    margin: 8px;
+    font-size: larger;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus{
+    border: 3px solid cornflowerblue;
+}
+
+@media (min-width: 500px) and (max-width: 1350px){
+    button{
+        padding: 0.8rem;
+        height: fit-content;
+        background-color: dodgerblue;
+        border-radius: 0.8rem;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: medium;
+        font-weight: bolder;
+        font-style: italic;
+        border: 1px solid dodgerblue;
+    }
+}
+@media (min-width: 400px) and (max-width: 800px){
+    button{
+        padding: 0.6rem;
+        height: fit-content;
+        background-color: dodgerblue;
+        border-radius: 0.8rem;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: medium;
+        font-weight: bolder;
+        font-style: italic;
+        border: 1px solid dodgerblue;
+    }
+}
+@media (max-width: 400px){
+    button{
+        padding: 0.4rem;
+        height: fit-content;
+        background-color: dodgerblue;
+        border-radius: 0.8rem;
+        color: rgba(255, 255, 255, 0.795);
+        font-size: small;
+        font-weight: bolder;
+        font-style: italic;
+        border: 1px solid dodgerblue;
+        margin: 0;
+    }
+}
+
+
+#products{
+    padding: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+@media (min-width: 500px) and (max-width: 1350px){
+    #products{
+        padding: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 15px;
+        row-gap: 15px;
+    } 
+}
+@media (min-width: 400px) and (max-width: 800px){
+    #products{
+        padding: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 15px;
+        row-gap: 15px;
+    } 
+}
+@media (max-width: 400px){
+    #products{
+        padding: auto;
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 15px;
+        row-gap: 15px;
+    } 
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item img {
+    max-width: 140px;
+    max-height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.grid-item .product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.grid-item .price {
+    font-size: 1.1rem;
+    color: #f36;
+    margin-bottom: 12px;
+}
+
+.grid-item .description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+    height: 60px; 
+    overflow: hidden; 
+}
+
+.grid-item button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.grid-item button:hover {
+    background-color: #218838;
+}
+
+
+#navbar {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 15px 30px;
+}
+.nav p {
+    margin: 0;
+    font-size: 24px; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #007bff, #00d084); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s ease; 
+}
+
+#navbar svg {
+    margin-left: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: end;
+}
+
+.nav-btn:last-child {
+    margin-right: 0; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #a19f9f; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #555; 
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 5px;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 10px 15px;
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #555; 
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.btn.sign-up {
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase; 
+}
+
+.btn.sign-up:hover {
+    background-color: #555; 
+    transform: scale(1.05); 
+}
+
+
+
+#veryRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#veryRight svg {
+    cursor: pointer;
+    margin-right: 10px;
+    fill: #fff;
+    transition: fill 0.3s ease;
+}
+
+#veryRight svg:hover {
+    fill: #00d084; 
+}
+
+#veryRight button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+}
+
+#veryRight button:hover {
+    background-color: #575757; 
+}
+

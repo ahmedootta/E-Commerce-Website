@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+#navbar {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 15px 30px;
+}
+.nav p {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold; 
+    position: relative;
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #007bff, #00d084); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s ease; 
+}
+
+
+#navbar svg {
+    margin-left: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+#veryRight, #signUp {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+#veryRight svg, #signUp {
+    cursor: pointer;
+    margin-right: 10px;
+    fill: #fff; 
+    transition: fill 0.3s ease;
+}
+
+#veryRight svg:hover{
+    fill: #00d084; 
+}
+
+#veryRight button, #signUp {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+}
+
+#veryRight button:hover {
+    background-color: #575757; 
+}
+
+
+
+
+#product-details {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+}
+
+.detail-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-right: 15px;
+    width: 150px; /* Adjust width to align titles */
+}
+
+.detail-value {
+    font-size: 16px;
+    color: #555;
+    flex: 1;
+}
+
+#product-details .detail-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Existing styles for the image slider */
+#prod {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    left: 5px;
+}
+
+.right-arrow {
+    right: 5px;
+}
+
+/* Styles for action buttons */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #333; /* Dark background to match the black navbar */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for better spacing */
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase; /* Uppercase text for a modern look */
+}
+
+.btn:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.add-to-cart {
+    background-color: #28a745; /* Green background for 'Add to Cart' */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.continue-shopping {
+    background-color: #007bff; /* Blue background for 'Continue Shopping' */
+}
+
+.continue-shopping:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
