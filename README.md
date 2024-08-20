@@ -1,5 +1,5 @@
-# E-Commerce-Website
-Shopping Site
+# E-Commerce Website
+**Shopping Site**
 
 ## Features
 
@@ -22,5 +22,9 @@ Shopping Site
 
 ### Password Management
 
-- **Reset Password**: Users can reset their password via email. If a user forgets their password, they can initiate a password reset process that sends a reset link to their registered email address.
+- **Reset Password**: Users can reset their password by entering their username and the associated email address. If both match an account in the database, the password reset process will be simulated on the site.
 
+### Product Filtering and Sorting
+
+- **Filter by Category**: Users can filter products by category to easily find items of interest.
+- **Sort Products**: Users can sort products based on various criteria such as price, popularity, or rating.
