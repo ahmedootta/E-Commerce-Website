@@ -27,4 +27,4 @@
 ### Product Filtering and Sorting
 
 - **Filter by Category**: Users can filter products by category to easily find items of interest.
-- **Sort Products**: Users can sort products based on various criteria such as price, popularity, or rating.
+- **Sort Products**: Users can sort products based on various criteria.
