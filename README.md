@@ -28,3 +28,15 @@
 
 - **Filter by Category**: Users can filter products by category to easily find items of interest.
 - **Sort Products**: Users can sort products based on various criteria.
+
+## Tech Stack
+
+Vanilla JavaScript, HTML, CSS. Product data is fetched live from the [DummyJSON](https://dummyjson.com/products) API and cached in `localStorage`; user accounts/carts are stored in `db.json`, served with a JSON server for the authentication mock.
+
+## Run
+
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+Then open `index.html` (e.g. via a local static server / Live Server) in the browser.
